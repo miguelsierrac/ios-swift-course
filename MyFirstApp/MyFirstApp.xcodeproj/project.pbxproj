@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F325F6B208BA11A006E9C95 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F325F6A208BA11A006E9C95 /* AVFoundation.framework */; };
 		5F9CCEF92059C178001EEB47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CCEF82059C178001EEB47 /* AppDelegate.swift */; };
 		5F9CCEFB2059C178001EEB47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CCEFA2059C178001EEB47 /* ViewController.swift */; };
 		5F9CCEFE2059C178001EEB47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CCEFC2059C178001EEB47 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		5F9CCF032059C178001EEB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CCF012059C178001EEB47 /* LaunchScreen.storyboard */; };
 		5F9CCF0E2059C178001EEB47 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CCF0D2059C178001EEB47 /* MyFirstAppTests.swift */; };
 		5F9CCF192059C178001EEB47 /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CCF182059C178001EEB47 /* MyFirstAppUITests.swift */; };
+		5F9CCF272059D33E001EEB47 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CCF262059D33E001EEB47 /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F325F6A208BA11A006E9C95 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5F9CCEF52059C178001EEB47 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9CCEF82059C178001EEB47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9CCEFA2059C178001EEB47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		5F9CCF142059C178001EEB47 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9CCF182059C178001EEB47 /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		5F9CCF1A2059C178001EEB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9CCF262059D33E001EEB47 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F325F6B208BA11A006E9C95 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F325F69208BA11A006E9C95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F325F6A208BA11A006E9C95 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5F9CCEEC2059C178001EEB47 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 				5F9CCF0C2059C178001EEB47 /* MyFirstAppTests */,
 				5F9CCF172059C178001EEB47 /* MyFirstAppUITests */,
 				5F9CCEF62059C178001EEB47 /* Products */,
+				5F325F69208BA11A006E9C95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +117,7 @@
 				5F9CCEFF2059C178001EEB47 /* Assets.xcassets */,
 				5F9CCF012059C178001EEB47 /* LaunchScreen.storyboard */,
 				5F9CCF042059C178001EEB47 /* Info.plist */,
+				5F9CCF262059D33E001EEB47 /* Cat.wav */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -235,6 +250,7 @@
 				5F9CCF032059C178001EEB47 /* LaunchScreen.storyboard in Resources */,
 				5F9CCF002059C178001EEB47 /* Assets.xcassets in Resources */,
 				5F9CCEFE2059C178001EEB47 /* Main.storyboard in Resources */,
+				5F9CCF272059D33E001EEB47 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
